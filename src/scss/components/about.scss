@@ -1,0 +1,119 @@
+//  .about-section {
+//     min-height: 10vh;
+//     min-width: 100vw;
+//     position: relative;
+//     z-index: 1999;
+//     font-family: 'gyst-variable';
+//     display: flex;
+//     flex-direction: column;
+//     mix-blend-mode: difference;
+//     color: rgb(156, 156, 156);
+//     justify-content: center;
+//     text-align: justify;
+//  }
+
+
+
+//  .about-left {
+//     display: flex;
+//     width: 30%;
+//     flex-direction: column;
+//     padding-right: 5px;
+//  }
+
+//   .about-description {
+//       font-size: 2em;
+//       font-weight: 500;
+//   }
+
+//   .about-quote {
+//         margin-top: 10%;
+//         font-size: 2em;
+//         font-weight: 500;
+//   }
+
+//  .about-right {
+//    width: 30%;
+//     display: flex;
+//     flex-direction: column;
+//  }
+
+// .about-motivation {
+//         font-size: 1.8em;
+//         font-weight: 500;
+//         padding: 0 50px 0px 50px;
+// }
+
+// .about-button {
+//         font-size: 1.9em;
+//         font-weight: 500;
+//         text-align: center;
+//         text-decoration: underline;
+//         margin: 4%;
+// }
+// .about-wrapper {
+//    display: flex;
+//    flex-direction: row;
+//    justify-content: center;
+// }
+
+// /* Responsive Adjustments for Large Tablets */
+// @media (max-width: 1200px) {}
+
+// /* Responsive Adjustments for Tablets */
+// @media (max-width: 1024px) {}
+
+// /* Responsive Adjustments for Mobile Devices */
+// @media (max-width: 768px) {}
+
+// /* Responsive Adjustments for Small Mobile Devices */
+// @media (max-width: 480px) {
+
+//    .about-section {
+
+//       }
+   
+   
+//       .about-left {
+//          width: 80%;
+//       }
+   
+//       .about-description {
+//          font-size: 1.8em;
+//       }
+   
+//       .about-quote {
+//          font-size: 1.8em;
+//       }
+   
+//       .about-right {
+//          width: 90%;
+//       }
+   
+//       .about-motivation {
+//          font-size: 1.8em;
+//       }
+   
+//       .about-button {
+//          font-size: 1.8em;
+//       }
+   
+//       .about-wrapper {
+//          flex-direction: column;
+//          justify-content: center;
+//          text-align: center;
+//          align-items: center;
+//       }
+// }
+
+
+
+.about-us {
+   height: 100vh;
+   width: 90vw;
+   position: relative;
+   border-radius: 2em;
+   background-color: black;
+   justify-self: center;
+   z-index: 9999;
+}

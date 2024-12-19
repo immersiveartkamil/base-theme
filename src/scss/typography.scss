@@ -1,0 +1,178 @@
+body {
+    font-family: 'Franie', sans-serif;
+    font-size: $base-font-size;
+    margin: 0;
+    font-weight: 1;
+    padding: 0;
+    color: #333;
+    font-variant-ligatures: none;
+    
+}
+
+// Nagłówki
+h1, h2, h3, h4, h5, h6 {
+
+}
+
+h1 {
+    font-size: $h1-font-size;
+}
+
+h2 {
+    font-size: $h2-font-size;
+}
+
+h3 {
+    font-size: $h3-font-size;
+}
+
+h4 {
+    font-size: $h4-font-size;
+}
+
+h5 {
+    font-size: $h5-font-size;
+}
+
+h6 {
+    font-size: $h6-font-size;
+}
+
+// Responsywna typografia
+@media (max-width: $small-screen) {
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.75em;
+    }
+
+    h3 {
+        font-size: 1.5em;
+    }
+
+    h4 {
+        font-size: 1.25em;
+    }
+
+    h5 {
+        font-size: 1.125em;
+    }
+
+    h6 {
+        font-size: 1em;
+    }
+
+    body {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: $medium-screen) {
+    h1 {
+        font-size: 2.25em;
+    }
+
+    h2 {
+        font-size: 2em;
+    }
+
+    h3 {
+        font-size: 1.75em;
+    }
+
+    h4 {
+        font-size: 1.5em;
+    }
+
+    h5 {
+        font-size: 1.25em;
+    }
+
+    h6 {
+        font-size: 1.125em;
+    }
+
+    body {
+        font-size: 15px;
+    }
+}
+
+@media (min-width: $large-screen) {
+    h1 {
+        font-size: 2.5em;
+    }
+
+    h2 {
+        font-size: 2.25em;
+    }
+
+    h3 {
+        font-size: 2em;
+    }
+
+    h4 {
+        font-size: 1.75em;
+    }
+
+    h5 {
+        font-size: 1.5em;
+    }
+
+    h6 {
+        font-size: 1.25em;
+    }
+
+    body {
+        font-size: 24px;
+    }
+}
+
+@media (min-width: $extra-large-screen) {
+    h1 {
+        font-size: 3em;
+    }
+
+    h2 {
+        font-size: 2.5em;
+    }
+
+    h3 {
+        font-size: 2.25em;
+    }
+
+    h4 {
+        font-size: 2em;
+    }
+
+    h5 {
+        font-size: 1.75em;
+    }
+
+    h6 {
+        font-size: 1.5em;
+    }
+
+    body {
+        font-size: 24px;
+    }
+}
+
+// Style dla tekstu podstawowego
+p {
+    margin: 0 0 1.5em;
+}
+
+ul, ol {
+    margin: 0 0 1.5em;
+    padding: 0 0 0 1.5em;
+}
+
+li {
+    margin: 0 0 0.5em;
+}
+
+a {
+    color: #007b
+}

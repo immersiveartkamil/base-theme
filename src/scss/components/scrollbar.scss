@@ -1,0 +1,52 @@
+/* Custom Scrollbar Track */
+.custom-scrollbar {
+    position: fixed;
+    top: 16%;
+    right: 60px;
+    width: 1px;
+    height: 70vh;
+    background-color: #00000091;
+    z-index: 999;
+}
+
+/* Scroll Thumb SVG */
+#scroll-thumb {
+    position: absolute;
+    top: 0;
+    left: 50%; // Center the thumb horizontally
+    transform: translateX(-50%); // Center the thumb horizontally
+    width: 40px;
+    height: 40px;
+    fill: rgba(0, 0, 0, 0.521);
+    pointer-events: all;
+    transition: transform 0.2s ease;
+    cursor: grab; // Change cursor to grab icon
+}
+
+#scroll-thumb:active {
+    cursor: grabbing; // Change cursor to grabbing icon when active
+}
+
+/* Responsive Adjustments for Large Tablets */
+@media (max-width: 1200px) {
+ 
+}
+
+/* Responsive Adjustments for Tablets */
+@media (max-width: 1024px) {
+
+}
+
+/* Responsive Adjustments for Mobile Devices */
+@media (max-width: 768px) {
+ .custom-scrollbar {
+    display: none;
+ }
+}
+
+/* Responsive Adjustments for Small Mobile Devices */
+@media (max-width: 480px) {
+.custom-scrollbar {
+        display: none;
+    }
+}

@@ -1,0 +1,41 @@
+.footer{
+    background-color:$footer-bgc-color;
+    p{
+        color:$footer-links-color;
+    }
+    &__col{
+        ul{
+            list-style:none;
+            padding: 0;
+        }
+        a{
+            text-decoration: none;
+            color: $footer-links-color;
+        }
+        
+    }
+    &__title{
+      color:$footer-links-color;
+      margin-bottom: 1em;
+      &::after{
+        margin-top:5px;
+        content:"";
+        display:block;
+        width: 10%;
+        height: 2px;
+        background-color: $footer-accent-color;
+      }
+    }
+}
+
+/* Responsive Adjustments for Large Tablets */
+@media (max-width: 1200px) {}
+
+/* Responsive Adjustments for Tablets */
+@media (max-width: 1024px) {}
+
+/* Responsive Adjustments for Mobile Devices */
+@media (max-width: 768px) {}
+
+/* Responsive Adjustments for Small Mobile Devices */
+@media (max-width: 480px) {}

@@ -1,0 +1,70 @@
+.overlay {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    z-index: 9999;
+    display: flex;
+    pointer-events: none;
+        /* Add this line */
+}
+
+.bar {
+    width: 10vw;
+        /* Original width */
+    height: 100vh;
+    background-color: black;
+    margin: 0;
+        /* Ensure no margins */
+    padding: 0;
+        /* Ensure no padding */
+    will-change: height;
+}
+
+.counter {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    z-index: 10000;
+    color: white;
+    padding: 0 2em;
+    padding-bottom: 0.1em;
+    font-size: 64px;
+    pointer-events: none;
+    will-change: font-size;
+        /* Add this line */
+}
+
+/* Responsive Adjustments for Large Tablets */
+@media (max-width: 1200px) {}
+
+/* Responsive Adjustments for Tablets */
+@media (max-width: 1024px) {}
+
+/* Responsive Adjustments for Mobile Devices */
+@media (max-width: 768px) {
+        .counter {
+                padding: 0 1em;
+                padding-bottom: 0.1em;
+                font-size: 12px;
+                pointer-events: none;
+                /* Add this line */
+            }
+
+            .bar {
+                height: 120vh;
+            }
+}
+
+/* Responsive Adjustments for Small Mobile Devices */
+@media (max-width: 480px) {
+
+    .counter {
+            font-size: 1px;
+            pointer-events: none;
+            /* Add this line */
+        }
+}

@@ -1,0 +1,163 @@
+.hero {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    font-family: 'Creamy Peachy';
+    align-items: center;
+    z-index: 10; // Adjusted z-index
+    mix-blend-mode: difference;
+    padding-top: 2%;
+    &__svg {
+       height: 60vh;
+       width: 60vw;
+    }
+}
+
+#grain-overlay {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 5; // Adjusted z-index
+    pointer-events: none;
+}
+
+.hero-description {
+    position: relative;
+    font-size: 26px;
+    font-weight: 10;
+    padding: 0.7em;
+    border-radius: 0.6em;
+    left: 7em;
+    top: 1em;
+    text-justify: newspaper;
+    width: 25%;
+    z-index: 20; // Adjusted z-index
+    mix-blend-mode: difference; // Apply blend mode directly
+    color: white;
+}
+
+.hero-badges {
+    position: relative;
+    top: -5.5em;
+    right: -44em;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 1em;
+}
+
+.badge {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(113, 113, 113);
+    padding: 1em;
+    border-radius: 0.5em;
+    mix-blend-mode: multiply;
+    color: white;
+    text-align: center;
+}
+
+.badge__icon {
+    font-size: 0.7em;
+}
+
+.badge__text {
+    font-size: 1.1em;
+    font-weight: 100;
+}
+
+.badge__counter {
+    font-size: 0.8em;
+    font-weight: 30;
+}
+.badge__wrapper {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    font-size: 3em;
+}
+
+/* Responsive Adjustments for Large Tablets */
+@media (max-width: 1200px) {
+    .hero__svg {
+        height: 50vh;
+        width: 50vw;
+    }
+
+    .hero-description {
+        left: 5em;
+        top: 1em;
+        width: 30%;
+    }
+
+    .hero-badges {
+        top: -5em;
+        right: -35em;
+    }
+}
+
+/* Responsive Adjustments for Tablets */
+@media (max-width: 1024px) {
+    .hero__svg {
+        height: 40vh;
+        width: 40vw;
+    }
+
+    .hero-description {
+        left: 4em;
+        top: 1em;
+        width: 35%;
+    }
+
+    .hero-badges {
+        top: -4em;
+        right: -30em;
+    }
+}
+
+/* Responsive Adjustments for Mobile Devices */
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero__svg {
+        height: 30vh;
+        width: 80vw;
+    }
+
+    .hero-description {
+        left: 0;
+        top: 1em;
+        width: 80%;
+        text-align: center;
+    }
+
+    .hero-badges {
+        top: 1em;
+        right: 0;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* Responsive Adjustments for Small Mobile Devices */
+@media (max-width: 480px) {
+    .hero__svg {
+        height: 25vh;
+        width: 90vw;
+    }
+
+    .hero-description {
+        width: 90%;
+    }
+
+    .hero-badges {
+        top: 2em;
+    }
+}
+

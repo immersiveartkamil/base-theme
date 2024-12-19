@@ -1,0 +1,106 @@
+/* Container for the portfolio section */
+.portfolio {
+    overflow: hidden;
+    position: relative;
+    z-index: 9999;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 50px 0;
+
+    &__header {
+        font-size: 72px;
+        font-weight: 100;
+    }
+
+    &__item {
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+        display: flex;
+        flex-direction: row;
+        width: 80%;
+        height: 45vh;
+        margin-bottom: 20px;
+        // background-color: #e9e4999f;
+        background-color: #ffffffd0;
+        border-radius: 30px;
+        overflow: hidden;
+
+        &__wrapper {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+        }
+
+        &__left {
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            padding: 20px;
+        }
+            &__header {
+                width: 70%;
+                font-size: 48px;
+                font-weight: 90;
+                margin-bottom: 10px;
+                padding-bottom: 10px;
+                border-bottom: solid 0.1px rgba(0, 0, 0, 0.288);
+            }
+
+            &__tags {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 10px;
+                margin-bottom: 10px;
+            }
+                &__tag {
+                    background-color: #3b3b3b8a;
+                    border-radius: 10px;
+                    border: solid 0.1px rgba(0, 0, 0, 0.288);
+                    padding: 3px 5px;
+                    font-size: 12px;
+                    font-weight: 20;
+                    color: #ffffff;
+                    text-transform: uppercase;
+                }
+            
+
+            &__description {
+                height: 25%;
+                font-size: 21px;
+                font-weight: 40;
+                color: #333;
+            }
+        
+
+        &__right {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 50%;
+            background-color: #f0f0f0;
+        }
+            &__video {
+                width: 100%;
+                height: auto;
+                border-radius: 0 10px 10px 0;
+            }
+        
+
+        &__button {
+            align-self: left;
+            width: 35%;
+            padding: 6px;
+            margin-top: 15%;
+            border-radius: 2em;
+            border: solid 2px rgba(0, 0, 0, 0.61);
+            font-size: 24px;
+            font-weight: 50;
+            font-family: 'Franie', sans-serif!important;
+        }
+    }
+}
+    
+
+
+

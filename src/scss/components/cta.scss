@@ -1,0 +1,111 @@
+.cta-section {
+    position: relative;
+    z-index: 10;
+    min-height: 30vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+    font-family: 'gyst-variable';
+    justify-content: center;
+    text-align: center;
+    mix-blend-mode: difference;
+    overflow: hidden;
+}
+
+
+.cta-header {
+    font-size: 11em;
+    font-family: 'Creamy Peachy', sans-serif;
+    display: inline-block;
+    will-change: transform;
+
+}
+
+.cta-header-description {
+    font-size: 3.6em;
+    font-family: 'Creamy Peachy', sans-serif;
+    text-transform: uppercase;
+    will-change: transform;
+
+}
+
+.changing-word {
+    display: inline-block;
+    width: 6ch; /* Adjust to fit longest word comfortably */
+    text-align: left;
+    will-change: transform;
+}
+
+/* Responsive Adjustments for Large Tablets */
+@media (max-width: 1200px) {}
+
+/* Responsive Adjustments for Tablets */
+@media (max-width: 1024px) {}
+
+/* Responsive Adjustments for Mobile Devices */
+@media (max-width: 768px) {}
+
+/* Responsive Adjustments for Small Mobile Devices */
+@media (max-width: 480px) {
+
+    .cta-section {
+            position: relative;
+            z-index: 10;
+            min-height: 30vh;
+            width: 100vw;
+            display: flex;
+            flex-direction: column;
+            color: rgb(255, 255, 255);
+            font-family: 'gyst-variable';
+            justify-content: center;
+            text-align: center;
+            mix-blend-mode: difference;
+            overflow: hidden;
+        }
+    
+    
+        .cta-header {
+            font-size: 6em;
+            font-family: 'Creamy Peachy', sans-serif;
+            text-align: center;
+            line-height: 1.2;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 0.2em;
+            /* Optional space between words */
+        }
+
+        .cta-header span {
+            display: inline-block;
+            white-space: nowrap;
+            /* Ensures each word stays together */
+        }
+    
+        .cta-header-description-wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            line-height: 1.4;
+        }
+
+        .cta-header-description {
+            margin-bottom: 0.5em;
+            font-size: 2em;
+        }
+
+        .cta-header-description span {
+            display: block;
+            white-space: nowrap;
+            /* Prevents wrapping within each span */
+        }
+
+        .changing-word {
+            display: inline-block;
+            width: 16ch;
+            /* Adjust this to accommodate the longest word */
+            text-align: center;
+        }
+}

@@ -1,0 +1,77 @@
+.contact-section {
+    min-height: 20vh;
+    width: 90vw;
+    position: relative;
+    z-index: 10;
+    display: flex;
+    color: white;
+    justify-content: center;
+    font-family: 'gyst-variable';
+    text-decoration: underline rgb(173 106 163) 3px;
+    
+}
+
+.contact-info-wrapper {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+    font-size: 2em;
+}
+
+.phone {
+    width: 50vw;
+    text-align: center;
+}
+
+.mail {
+    width: 50vw;
+    text-align: center;
+}
+
+.social-wrapper {
+    /* Styles for the social media icons or links wrapper */
+}
+
+/* Responsive Adjustments for Large Tablets */
+@media (max-width: 1200px) {}
+
+/* Responsive Adjustments for Tablets */
+@media (max-width: 1024px) {}
+
+/* Responsive Adjustments for Mobile Devices */
+@media (max-width: 768px) {}
+
+/* Responsive Adjustments for Small Mobile Devices */
+@media (max-width: 480px) {
+
+    .contact-section {
+            display: flex;
+            text-decoration: underline rgb(173 106 163) 2px;
+    
+        }
+    
+        .contact-info-wrapper {
+            padding-top: 50px;
+            padding-bottom: 100px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-size: 2em;
+        }
+    
+        .phone {
+            width: 100vw;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+    
+        .mail {
+            width: 100vw;
+            text-align: center;
+        }
+    
+        .social-wrapper {
+            /* Styles for the social media icons or links wrapper */
+        }
+}

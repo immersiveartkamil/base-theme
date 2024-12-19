@@ -1,0 +1,46 @@
+.text-left {
+	text-align: left;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.flex-row{
+    display:flex;
+}
+.flex-col{
+    display:flex;
+    flex-direction: column;
+}
+.flex-center{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex-center-col{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mt-10{
+    margin-top: 10px;
+}
+.mt-20{
+    margin-top: 20px;
+}
+.mb-10{
+    margin-bottom: 10px;
+}
+.mb-20{
+    margin-bottom: 20px;
+}
+.m-auto{
+    margin:0 auto;
+}

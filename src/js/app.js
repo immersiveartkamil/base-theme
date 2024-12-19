@@ -1,0 +1,10 @@
+import "./modules/gsap.js";
+import "./modules/lenis.js";
+import "./modules/hero.js";
+import "./modules/scroll-thumb.js";
+import "./modules/menu.js";
+// import "./modules/portfolio.js";
+// import "./modules/svg-morph.js";
+// import "./modules/background.js";
+import "./modules/background2.js";
+import "./modules/grain.js";
